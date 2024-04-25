@@ -618,6 +618,7 @@ namespace SpartaTextGame
         static void SaveInfo()
         {
             // 게임 저장
+            Console.WriteLine();
             string json = JsonConvert.SerializeObject(playerInfo);
             string json1 = JsonConvert.SerializeObject(playerEquipments);
             string json2 = JsonConvert.SerializeObject(equipments);
